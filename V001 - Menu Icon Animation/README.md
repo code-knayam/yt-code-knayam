@@ -5,4 +5,4 @@ In this video we are going to learn how to animate the bars menu icon to a close
 
 
 Get the code at github -
-https://github.com/code-knayam/V001 - Menu Icon Animation
+https://github.com/code-knayam/code-knayam/tree/master/V001%20-%20Menu%20Icon%20Animation
