@@ -1,0 +1,51 @@
+body {
+    background: #111;
+}
+.icon-container {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(142, 29, 29);
+}
+.icon {
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 0 10px #222;
+    transition: .2s ease-in;
+}
+.icon::after, .icon::before {
+    content: '';
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0 10px #222;
+    transition: .4s ease-in;
+}
+.icon::after {
+    top: 35px;
+}
+.icon::before {
+    top: -35px;
+}
+
+.icon-container:hover .icon {
+    background: transparent;
+    box-shadow: none;
+}
+.icon-container:hover .icon::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.icon-container:hover .icon::after {
+    top: 0;
+    transform: rotate(135deg);
+}
