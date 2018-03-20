@@ -40,6 +40,10 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Video Files
 *.mp4
 *.png
 *.mov
+
+# Content File
+content.md
