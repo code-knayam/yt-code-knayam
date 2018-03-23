@@ -6,4 +6,4 @@ One of the great use of this glowing icon is to show the status signal as online
 
 
 Get the code at github -
-https://github.com/code-knayam/code-knayam/tree/master/V001%20-%20Menu%20Icon%20Animation
+https://github.com/code-knayam/code-knayam/tree/master/V002%20-%20Glowing%20Icon
