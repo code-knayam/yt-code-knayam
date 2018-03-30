@@ -45,7 +45,7 @@ Thumbs.db
 *.png
 *.mov
 *.mp3
-
+*.jpg
 # Content File
 content.md
 
