@@ -1,7 +1,7 @@
 # V004 : Custom Checkbox - Pure HTML /CSS
 
 Custom Checkbox a great User Interface design example. Increases user interaction and enhances user experience making your webpage more appealing and elegant.
-In this video, we are going to learn how to create a Custom Checkbox just like we see in Native UI.
+In this video, we are going to learn how to create a Custom Checkbox just like we see in Native UI. A great way to use this would be make your forms more interative or in settings pannel in your web app ( SPA or PWA ).
 
 Get the code at github -
 https://github.com/code-knayam/code-knayam/tree/master/V004%20-%20Custom%20Checkbox
