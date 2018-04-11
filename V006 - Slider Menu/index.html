@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+
+                // sliding menu out
+                $('.menu-container').toggleClass('menu-container-active');
+
+                // changing toggle button icon from bars to close
+                $('.menu-toggle i').toggleClass('fa-bars');
+                $('.menu-toggle i').toggleClass('fa-close');
+
+                // sliding toggle button
+                $('.menu-toggle').toggleClass('menu-toggle-active');
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div class="menu">
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <div class="menu-container">
+            <ul class="menu-items">
+                <li class="menu-item">Menu Item</li>
+                <li class="menu-item">Menu Item</li>
+                <li class="menu-item">Menu Item</li>
+                <li class="menu-item">Menu Item</li>
+                <li class="menu-item">Menu Item</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
