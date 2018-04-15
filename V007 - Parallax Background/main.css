@@ -1,0 +1,16 @@
+.section {
+    height: 600px;
+    background: #ddd;
+    padding-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.jumbotron {
+    height: 300px;
+    background: url(background.jpeg) center center no-repeat;
+    background-size: 130%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+}
