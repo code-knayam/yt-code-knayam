@@ -5,7 +5,7 @@ In parallax effect, the contents of the webpage move/scroll at different speeds,
 In this video, we are going to learn how to create a parallax background. The background image would be scrolling at a different speed than the other elements which gives a really nice visual experience to the overall page.
 
 Get the code at github -
-
+https://github.com/code-knayam/code-knayam/tree/master/V007%20-%20Parallax%20Background
 
 Music - 
 https://www.youtube.com/watch?v=__CRWE-L45k
